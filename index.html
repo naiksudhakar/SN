@@ -101,8 +101,27 @@
 </head>
 <body>
   <header>
-   <img src="naikxlogo.jpg" alt="NaikX Logo" class="logo-container" />
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo-container {
+  width: 100px; 
+  height: auto;
+  margin-right: 20px; 
+}
+
+.header-text {
+  text-align: left;
+}
+
+<div class="header-container">
+    <img src="naikxlogo.jpg" alt="NaikX Logo" class="logo-container" />
+    <div class="header-text">
   <h1>NaikX Innovations</h1>
+Leading with Startegy. Innovating with purpose.
   <p>Business Excellence | Leadership Devlopement | Product Strategy | Agile Transformation</p>
 </header>
 <section>
@@ -222,7 +241,7 @@ We specialize in three core pillars:
   </div>
 
   <div class="card">
-    <h2>Contact Form</h2>
+    <h2>We are just a message away</h2>
     <form action="mailto:dipali.naik1012@gmail.com" method="post" enctype="text/plain">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
